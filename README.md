@@ -1,4 +1,4 @@
-## [vite](https://vitejs.dev/) + [React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/) Starter
+## [vite](https://vitejs.dev/) + [React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/) + [SCSS](https://sass-lang.com/) Starter
 
 This setup includes:
 * [vite](https://vitejs.dev/)
