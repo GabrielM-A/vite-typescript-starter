@@ -1,6 +1,6 @@
-import { HashRouter, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import NotFound from './pages/NotFound';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/home/Home';
+import NotFound from './pages/not-found/NotFound';
 
 export function App() {
   return (
@@ -11,10 +11,10 @@ export function App() {
   );
 }
 
-export function WrappedApp() {
+export function RoutedApp() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <App />
-    </HashRouter>
+    </BrowserRouter>
   );
 }

@@ -2,14 +2,11 @@ import { describe, it } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 
-import { WrappedApp, App } from './App';
+import { RoutedApp, App } from './App';
 
 describe('App', () => {
   it('Renders hello world', () => {
-    // ARRANGE
-    render(<WrappedApp />);
-    // ACT
-    // EXPECT
+    render(<RoutedApp />);
     expect(
       screen.getByRole('heading', {
         level: 1,
