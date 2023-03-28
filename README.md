@@ -17,6 +17,10 @@ This setup includes:
 
 - You may need to reload your window for the setting changes to take effect
 - `cntrl shift p` - search for eslint - fix all auto-fixable problems (and can save to a new shortcut or map to save as described below) 
+- alternatively you can map eslint fix all auto-fixable problems to the key-binding of save: 
+
+![image](https://user-images.githubusercontent.com/61157456/228275025-5ef3afef-5838-4881-b556-d9eac586fa02.png)
+> Just double click the key-binding cell 
 
 ![image](https://user-images.githubusercontent.com/61157456/228268714-516b4e96-f4b2-43c1-a118-086dbc37ece1.png)
 > Shows the command pallete and the ability to trigger auto-fix from there
